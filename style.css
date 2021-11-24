@@ -1,0 +1,138 @@
+.nft-card {
+    background-color: hsl(216, 50%, 16%);
+    /* width: 100px;
+    height: 100px;
+    background-color: hsl(215, 32%, 27%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto; */
+    height: 368px;
+    width: 208px;
+    padding: 15px;
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    /* margin-top: 5%; */
+    margin-bottom: 5%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    color: hsl(215, 51%, 70%);
+    font-size: 12px;
+    box-shadow: 0 20px 30px 10px hsl(217, 54%, 11%);
+    /* background-image: url("images/image-equilibrium.jpg"); */
+  }
+  body {
+    background-color: hsl(216, 50%, 16%);
+    font-family: "Outfit", sans-serif;
+  }
+  .split-para {
+    display: block;
+    /* margin: 10px; */
+  }
+  .split-para span {
+    display: block;
+    float: right;
+    /* width: 50%; */
+    /* margin-left: 10px; */
+    /* margin-right: 0; */
+    color: hsl(215, 51%, 70%);
+  }
+  h3 {
+    color: hsl(0, 0%, 100%);
+  }
+  .nft {
+    color: hsl(178, 100%, 50%);
+  }
+  /* .svg-img {
+    width: 8%;
+    height: 8%;
+    margin-right: 0;
+    padding-right: 0;
+  } */
+  .icons {
+    height: 12px;
+    width: 8px;
+    /* margin: auto;
+    margin-top: 2%; */
+  }
+  .icon-clock {
+    /* padding-top: 10%; */
+    height: 17%;
+    width: 17%;
+    /* padding-bottom: 0; */
+  }
+  hr {
+    border-top: 1px solid hsl(215, 32%, 27%);
+    border-bottom: 0px;
+    border-left: 0;
+    border-right: 0;
+  }
+  .dp {
+    height: 10%;
+    width: 10%;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    /* img { */
+    /* width: 60px;
+    height: 60px; */
+    /* border-radius: 50%; */
+    object-position: center;
+    object-fit: cover;
+    margin-right: 10px;
+    /* }  */
+  }
+  td {
+    margin: auto;
+    margin-top: 0px;
+  }
+  .card-footer {
+    /* background-color: #e4f2fd; */
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    bottom: 0;
+    margin-top: -5px;
+  }
+  .nft-image :hover {
+    filter: opacity(50%);
+    border-radius: 5px;
+    /* invert(10%) sepia(100%) hue-rotate(340deg) saturate(500%); */
+    /* opacity: 0.4 !important;
+    filter: alpha(opacity=40) !important; */
+    /* background-image: url("./images/image-equilibrium.jpg"); */
+  }
+  .nft-image {
+    background: hsl(178, 100%, 50%);
+    width: 100%;
+    border-radius: 5px;
+    padding-bottom: -200%;
+    height: 56.5%;
+    /* background: url("/images/image-equilibrium.jpg") no-repeat; */
+  
+    /* background-position-y: -10; */
+    /* height: -7%; */
+    /* display: none; */
+  
+    /* height: 200px;
+    width: 200px; */
+  
+    /* position: relative; */
+  
+    /* bottom: -100px; */
+  
+    /* margin-bottom: px; */
+  }
+  .name :hover {
+    color: hsl(178, 100%, 50%);
+  }
+  .last-name {
+    color: white;
+  }
+  .last-name :hover {
+    color: hsl(178, 100%, 50%);
+  }
